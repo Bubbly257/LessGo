@@ -13,7 +13,7 @@ function setup() {
   var option= {isStatic: true}
   ground= Bodies.rectangle(400, 350, 1000, 20, option);
   World.add(world, ground);
-  var ballOption= {restitution:2.0}
+  var ballOption= {restitution:1.0}
   ball= Bodies.circle(400, 100, 20, ballOption);
   World.add(world, ball);
 }
